@@ -1,0 +1,9 @@
+1+1
+username = 'zfpx';
+age = 6;
+var obj = {}
+obj.username = 'zjx';
+obj.say = function(){
+console.log('i am test');
+}
+obj
