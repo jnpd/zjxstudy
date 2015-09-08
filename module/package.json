@@ -1,0 +1,24 @@
+{
+  "name": "zjxmoduleTest",
+  "version": "1.0.0",
+  "description": "This id demo",
+  "main": "1.namespace.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jnpd/zjx.git"
+  },
+  "keywords": [
+    "zjxmodu"
+  ],
+  "author": "zuojianxia",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jnpd/zjx/issues"
+  },
+  "homepage": "https://github.com/jnpd/zjx#readme"
+}
