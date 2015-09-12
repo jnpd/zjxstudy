@@ -1,0 +1,83 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'publish' ]
+2 info using npm@2.11.3
+3 info using node@v0.12.7
+4 verbose publish [ '.' ]
+5 silly cache add args [ '.', null ]
+6 verbose cache add spec .
+7 silly cache add parsed spec { raw: '.',
+7 silly cache add   scope: null,
+7 silly cache add   name: null,
+7 silly cache add   rawSpec: '.',
+7 silly cache add   spec: 'E:\\gitDemo\\zjxstudy\\module',
+7 silly cache add   type: 'directory' }
+8 verbose addLocalDirectory C:\Users\Administrator\AppData\Roaming\npm-cache\zjxmoduleTest\1.0.0\package.tgz not in flight; packing
+9 verbose tar pack [ 'C:\\Users\\Administrator\\AppData\\Roaming\\npm-cache\\zjxmoduleTest\\1.0.0\\package.tgz',
+9 verbose tar pack   'E:\\gitDemo\\zjxstudy\\module' ]
+10 verbose tarball C:\Users\Administrator\AppData\Roaming\npm-cache\zjxmoduleTest\1.0.0\package.tgz
+11 verbose folder E:\gitDemo\zjxstudy\module
+12 info prepublish zjxmoduleTest@1.0.0
+13 verbose addLocalTarball adding from inside cache C:\Users\Administrator\AppData\Roaming\npm-cache\zjxmoduleTest\1.0.0\package.tgz
+14 silly cache afterAdd zjxmoduleTest@1.0.0
+15 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\zjxmoduleTest\1.0.0\package\package.json not in flight; writing
+16 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\zjxmoduleTest\1.0.0\package\package.json written
+17 silly publish { name: 'zjxmoduleTest',
+17 silly publish   version: '1.0.0',
+17 silly publish   description: 'This id demo',
+17 silly publish   main: '1.namespace.js',
+17 silly publish   dependencies: {},
+17 silly publish   devDependencies: {},
+17 silly publish   scripts: { test: 'echo "Error: no test specified" && exit 1' },
+17 silly publish   repository: { type: 'git', url: 'git+https://github.com/jnpd/zjx.git' },
+17 silly publish   keywords: [ 'zjxmodu' ],
+17 silly publish   author: { name: 'zuojianxia' },
+17 silly publish   license: 'MIT',
+17 silly publish   bugs: { url: 'https://github.com/jnpd/zjx/issues' },
+17 silly publish   homepage: 'https://github.com/jnpd/zjx#readme',
+17 silly publish   readme: 'ERROR: No README data found!',
+17 silly publish   _id: 'zjxmoduleTest@1.0.0',
+17 silly publish   _shasum: '5907cda587a6f704181692331dffdb00b99ce09b',
+17 silly publish   _from: '.' }
+18 verbose getPublishConfig undefined
+19 silly mapToRegistry name zjxmoduleTest
+20 silly mapToRegistry using default registry
+21 silly mapToRegistry registry http://registry.cnpmjs.org/
+22 silly mapToRegistry uri http://registry.cnpmjs.org/zjxmoduleTest
+23 verbose publish registryBase http://registry.cnpmjs.org/
+24 silly publish uploading C:\Users\Administrator\AppData\Roaming\npm-cache\zjxmoduleTest\1.0.0\package.tgz
+25 verbose request uri http://registry.cnpmjs.org/zjxmoduleTest
+26 verbose request sending authorization for write operation
+27 info attempt registry request try #1 at 17:27:22
+28 verbose request id b7c89694d2b5dec7
+29 http request PUT http://registry.cnpmjs.org/zjxmoduleTest
+30 http 403 http://registry.cnpmjs.org/zjxmoduleTest
+31 verbose headers { server: 'nginx/1.4.6 (Ubuntu)',
+31 verbose headers   date: 'Sun, 06 Sep 2015 09:24:27 GMT',
+31 verbose headers   'content-type': 'application/json; charset=utf-8',
+31 verbose headers   'transfer-encoding': 'chunked',
+31 verbose headers   connection: 'keep-alive',
+31 verbose headers   'x-readtime': '18',
+31 verbose headers   'content-encoding': 'gzip' }
+32 verbose request invalidating C:\Users\Administrator\AppData\Roaming\npm-cache\registry.cnpmjs.org\zjxmoduleTest on PUT
+33 error publish Failed PUT 403
+34 verbose stack Error: no_perms can't publish non-scoped package, please set `config.scopes`: zjxmoduleTest
+34 verbose stack     at CachingRegistryClient.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:247:14)
+34 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:176:7
+34 verbose stack     at Gunzip.onEnd (zlib.js:227:5)
+34 verbose stack     at Gunzip.emit (events.js:129:20)
+34 verbose stack     at _stream_readable.js:908:16
+34 verbose stack     at process._tickCallback (node.js:355:11)
+35 verbose statusCode 403
+36 verbose pkgid zjxmoduleTest
+37 verbose cwd E:\gitDemo\zjxstudy\module
+38 error Windows_NT 6.1.7601
+39 error argv "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "publish"
+40 error node v0.12.7
+41 error npm  v2.11.3
+42 error code E403
+43 error no_perms can't publish non-scoped package, please set `config.scopes`: zjxmoduleTest
+44 error If you need help, you may report this error at:
+44 error     <https://github.com/npm/npm/issues>
+45 verbose exit [ 1, true ]
